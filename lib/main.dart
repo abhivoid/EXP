@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
            fontFamily: GoogleFonts.lato().fontFamily),
       routes: {
        Myroutes.homeroute:(context)=>HomePage(),
+        "/":(context)=>Login(),
         Myroutes.loginroute:(context)=>Login(),
          },
     );
